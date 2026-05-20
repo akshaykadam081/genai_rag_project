@@ -2,9 +2,7 @@ import zipfile
 import os
 
 from cleaner import clean_text
-from langchain.text_splitter import (
-    RecursiveCharacterTextSplitter
-)
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 
 def extract_zip(zip_path):
