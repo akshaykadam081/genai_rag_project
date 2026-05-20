@@ -1,0 +1,11 @@
+gradio
+groq
+chromadb
+langchain
+langchain-community
+sentence-transformers
+pandas
+numpy
+python-dotenv
+unstructured
+pypdf
