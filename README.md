@@ -5,14 +5,13 @@ It combines document processing, vector search, and LLM-based answering using Gr
 For example, cleaner.py handles data cleaning and preprocessing, llm_service.py is responsible for calling the Groq LLM APIs, and vector_store.py manages storing and retrieving embeddings using the vector database. Each file has a small and clear responsibility, which helped me understand how a full RAG pipeline is built step by step.
 
 * What this project does -
-
-Cleans and prepares raw text data for processing
-Splits documents into meaningful chunks for better retrieval
-Generates embeddings using SentenceTransformers
-Stores and searches vectors using ChromaDB
-Finds the most relevant context using similarity search
-Uses Groq Llama3 to generate intelligent responses
-Provides a simple chatbot UI using Gradio
+- Cleans and prepares raw text data for processing
+- Splits documents into meaningful chunks for better retrieval
+- Generates embeddings using SentenceTransformers
+- Stores and searches vectors using ChromaDB
+- Finds the most relevant context using similarity search
+- Uses Groq Llama3 to generate intelligent responses
+- Provides a simple chatbot UI using Gradio
 
 * Project Flow (File-wise Execution) -
 1. app.py → Starts Gradio UI, takes user input, and connects frontend to backend chatbot flow  
