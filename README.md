@@ -25,7 +25,7 @@ For example, cleaner.py handles data cleaning and preprocessing, llm_service.py 
 
 *** How to run this project ***
 1. Clone the repository:
-   !git clone https://github.com/your-username/genai_rag_project.git
+   !git clone https://github.com/akshaykadam081/genai_rag_project.git
    %cd genai_rag_project
 2. Install dependencies:
    !pip install -r requirements.txt
