@@ -3,6 +3,7 @@ groq
 chromadb
 langchain
 langchain-community
+langchain-text-splitters
 sentence-transformers
 pandas
 numpy
