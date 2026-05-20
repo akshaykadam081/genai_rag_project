@@ -31,6 +31,6 @@ For example, cleaner.py handles data cleaning and preprocessing, llm_service.py 
    !pip install -r requirements.txt
 3. Add your Groq API key:
    - edit config.py
-    GROQ_API_KEY = "your_api_key_here"
+   -> GROQ_API_KEY = "your_api_key_here"
 4. Run the app:
   !python app.py
