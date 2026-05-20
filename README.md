@@ -4,7 +4,8 @@ I built this project to understand how a real-world Retrieval-Augmented Generati
 It combines document processing, vector search, and LLM-based answering using Groq. The main entry point of the project is app.py, and I have separated the logic into different files to keep things simple and organized while I was learning.
 For example, cleaner.py handles data cleaning and preprocessing, llm_service.py is responsible for calling the Groq LLM APIs, and vector_store.py manages storing and retrieving embeddings using the vector database. Each file has a small and clear responsibility, which helped me understand how a full RAG pipeline is built step by step.
 
-* What this project does
+* What this project does -
+
 Cleans and prepares raw text data for processing
 Splits documents into meaningful chunks for better retrieval
 Generates embeddings using SentenceTransformers
